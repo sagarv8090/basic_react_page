@@ -1,0 +1,131 @@
+/* Navbar Styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 80px;
+}
+
+.logo {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px; /* Spacing between nav items */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff; /* White color for links */
+  font-size: 16px;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links li a:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+.login-btn {
+  background-color: #ffcc00; /* Button background color */
+  color: #333; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.login-btn:hover {
+  background-color: #ffdb4d; /* Change background color on hover */
+}
+
+/* Body Styles */
+
+/* Body Styles */
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: calc(100vh - 80px); /* Adjusted height to accommodate navbar */
+}
+
+/* Rest of your styles remain the same */
+
+.content-section {
+  flex: 1;
+}
+
+.image-section {
+  flex: 1;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.shop-btn,
+.category-btn {
+  background-color: #ffcc00; /* Button background color */
+  color: #333; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.shop-btn:hover,
+.category-btn:hover {
+  background-color: #ffdb4d; /* Change background color on hover */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.image-section img {
+  width: 100%; /* Ensure image fills its container */
+  height: 600px;
+}
